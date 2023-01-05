@@ -1,0 +1,30 @@
+[Telegram]
+#token = "5342757065:AAGnUdfv5eVKE3Kp0MzU3sb6fr5dz2wGOyk"
+token = "5959498330:AAGAGD2Bj-sT7nPq5_d_dhqMYTzloESbTNc"
+#token = "5789971203:AAHq3l9poE_eFHqY_6qrPrYPg82il7YXHLE"
+# Time in seconds before a conversation (thread) with no new messages expires
+# A lower value reduces memory usage, but can be inconvenient for the users
+conversation_timeout = 7200
+# Time to wait before sending another update request if there are no messages
+long_polling_timeout = 30
+# Time in seconds before retrying a request if it times out
+timed_out_pause = 1
+# Time in seconds before retrying a request that returned an error
+error_pause = 1
+# Number of connections to keep in the connection pool
+con_pool_size = 10
+
+
+[API]
+base = "https://panelbotter.herokuapp.com/{}"
+
+[Language]
+enabled_languages = "en"
+fallback_language = "en"
+default_language = "en"
+[Meta]
+# users must be in this group before able to use the bot
+group = "@testinghell"
+
+[Appearance]
+display_welcome_message = "yes"
